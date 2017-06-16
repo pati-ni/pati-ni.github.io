@@ -1,1 +1,16 @@
 theme: jekyll-theme-slate
+
+
+site:
+	description: 'High resolution isotope patterns generation'
+	title: 'Google Summer of Code 2017'
+
+author:
+	name:           'Nikos Patikas'
+	url:            'pati-ni.github.io'
+
+
+github:
+	repo:           https://github.com/pati-ni
+
+gems: [jekyll-gist, jekyll-paginate]
