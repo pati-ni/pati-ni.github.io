@@ -1,7 +1,3 @@
 ---
-layout: post
+layout: home
 ---
-
-{% assign post = site.posts.first %}
-
-{{ post }}

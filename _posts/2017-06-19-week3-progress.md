@@ -1,10 +1,6 @@
 ---
 layout: post
-title:  "Week 3 progress"
-date:   2017-06-19
 ---
-
-
 
 Another week reaches its end. the first evaluation seems much closer now. During this week I implemented the rest of the core algorithm and started to test and debug my implementation.
 

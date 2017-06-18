@@ -1,7 +1,5 @@
 ---
 layout: post
-title:  "The GSoC Journey Begins"
-date:   2017-05-30
 ---
 
 The start of the coding period is here. During the community bonding period I got the chance to interact with my mentors and decided a few things.

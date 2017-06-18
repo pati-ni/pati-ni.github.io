@@ -1,7 +1,5 @@
 ---
 layout: post
-title:  "Week 1 progress"
-date:   2017-06-05
 ---
 
 Time flied during the first week. I was excited to actually work in the isotope pattern algorithm. I sticked to my plan and started with Midas polynomial algorithm.

@@ -1,9 +1,12 @@
-site:
-	title: GSoC '17 blog
-	author: Nikos Patikas
-	description: This is a blog reporting weekly progress of the implementation of high resolution isotope pattern algorithms in OpenMS.
+title: Google Summer of Code 
+author: Nick Patikas
+email: cs091747@cs.uoi.gr
+description: > #
+  This page serves a Google Summer of Code blog for the year 2017.
+  Updates are posted every week during the coding period. 
+  You can find more about the project here.
 
-twitter_username: ou-nikos
+twitter_username: ou_nikos
 github_username:  pati-ni
 
 # Minima date format
