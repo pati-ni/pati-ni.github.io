@@ -1,10 +1,11 @@
-title: Google Summer of Code 
+title: High Resolution Isotope Pattern Generation
 author: Nick Patikas
 email: cs091747@cs.uoi.gr
 description: > #
   This page serves a Google Summer of Code blog for the year 2017.
+  The project is part of the <a href="https://www.openms.de/"> OpenMS</a> software that is hosted in GSoC by Open Bioinformatics Foundation.
   Updates are posted every week during the coding period. 
-  You can find more about the project here.
+  You can find more about the project <a href="https://summerofcode.withgoogle.com/projects/#6438529434386432"> here </a>.
 
 twitter_username: ou_nikos
 github_username:  pati-ni
