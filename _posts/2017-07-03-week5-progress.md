@@ -45,7 +45,7 @@ The polynomial serves as a `(mass, abundance)` tuple where the final samples are
 
 Original MIDAs implementation uses its own fourier transform. The fft was the only black box in the algorithm and has a critical role in its function. So I need to compare it with the kissfft method. So I tested the two algorithms in the same data separately and it did not yield the same results. After some frustation I started looking into the issue more. 
 
-First I realized that the algorithm works when the sample size is in the power of two. So  the |sample| can be {2,4,8,16.., 2^n}. Otherwise it will segfault. For kissfft the only limitation is that the |sample| it cannot be odd. I believe this limitation it makes the current implementation algorithm a memory hog and I guess there is remove for improvement.
+First I realized that the algorithm works when the sample size is an integral power of 2. Otherwise it will segfault. For kissfft the only limitation is that the |sample| it cannot be odd. I believe this limitation it makes the current implementation algorithm a memory hog and I guess there is remove for improvement.
 
 After managing the algorithm to run correctly the results were not the same. After some crawling in the web [I found this page](http://www.embedded.com/print/4017495) which is the same algorithm with the one I was investigating. This fft worked fine with the kissfft implementation. However I do not know the reason, but they changed some bits
 

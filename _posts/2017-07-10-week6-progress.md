@@ -6,7 +6,7 @@ layout: post
 
 A quiet week with not much to report. This week I implemented part of the MIDAs core functionality while trying to understand its underlying function. 
 
-I have too say that some parts of the source code is a bit convoluted. For example the snippet below occurs during the initialization of the algorithm parameters:
+I have too say that some parts of the source code are a bit convoluted. For example the snippet below occurs during the initialization of the algorithm parameters:
 
 
 ```c++
