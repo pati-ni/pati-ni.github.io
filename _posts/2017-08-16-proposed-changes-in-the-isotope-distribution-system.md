@@ -49,7 +49,7 @@ operator*(unsigned int);
 
 The `id` will remain empty until `id` is accessed or `computeID()` is invoked.
 
-Therefore the `operator+` will become:
+The `operator+` will become:
 
 ```
 void IsotopeDistribution::operator+(IsotopeDistribution& added_distribution)
@@ -63,7 +63,7 @@ else
 
 ```
 
-Therefore the `operator*` will become:
+The `operator*` will become:
 
 ```
 void IsotopeDistribution::operator*(unsigned int size)
@@ -79,7 +79,7 @@ void IsotopeDistribution::operator*(unsigned int size)
 `computeID()` will work in a tree manner that will compute all the earlier stages and finally compute the final distribution at the top level.
 
 
-The greatest challenge for this is implementing a hash function that will identify quickly and accurately the isotopedistribution components and group them together.
+The greatest challenge for this is implementing a hash function for the map data structure that will identify quickly and accurately same isotopedistribution components and group them together.
 
 
 
