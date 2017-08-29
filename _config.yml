@@ -9,7 +9,7 @@ description: > #
 
 defaults:
   - scope:
-      path: "_assets/img"
+      path: "assets/img"
     values:
       image: true
 
