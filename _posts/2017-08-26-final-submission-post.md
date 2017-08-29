@@ -43,6 +43,9 @@ Finally some benchmarking reports were exported from the results.
 
 ### Results
 
+Test Picture
+
+![alt text](http://pati-ni.github.io/_assets/img/Paul_Cezanne.jpg "Paul Cezanne")
 
 ### Conclusion
 

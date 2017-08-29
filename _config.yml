@@ -7,6 +7,12 @@ description: > #
   Updates are posted every week during the coding period. 
   You can find more about the project <a href="https://summerofcode.withgoogle.com/projects/#6438529434386432"> here </a>.
 
+defaults:
+  - scope:
+      path: "_assets/img"
+    values:
+      image: true
+
 twitter_username: ou_nikos
 github_username:  pati-ni
 
